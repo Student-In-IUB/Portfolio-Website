@@ -19,17 +19,17 @@ const Navbar = () => {
 
   return (
     <header className="sticky top-0 z-50">
-      {/* Background with layered shadows */}
+      
       <div className="relative">
-        {/* Floating shadow effect */}
+       
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-purple-900/20 to-pink-900/20 shadow-2xl shadow-blue-900/30 blur-[2px] -z-10" />
         
-        {/* Main navbar with glass effect */}
+       
         <div className="backdrop-blur-lg bg-gradient-to-br from-gray-900/95 to-gray-800/95 border-b border-gray-700/30 shadow-lg shadow-black/20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-20">
               
-              {/* Logo with glowing effect */}
+             
               <motion.div
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -43,7 +43,7 @@ const Navbar = () => {
                 </NavLink>
               </motion.div>
 
-              {/* Desktop Navigation with subtle hover glow */}
+             
               <motion.nav
                 className="hidden md:flex items-center space-x-8"
                 initial="hidden"
@@ -90,7 +90,7 @@ const Navbar = () => {
                 ))}
               </motion.nav>
 
-              {/* Mobile Menu Button with glow effect */}
+            
               <button
                 onClick={toggleMenu}
                 className="md:hidden p-2 rounded-md text-gray-300 hover:text-white hover:bg-white/10 focus:outline-none transition-all duration-200 hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.3)]"
@@ -109,7 +109,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu with depth and shadow */}
+    
       <AnimatePresence>
         {isMenuOpen && (
           <motion.div

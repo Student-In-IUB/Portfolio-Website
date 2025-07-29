@@ -68,7 +68,7 @@ const Home = () => {
       className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 px-[8%] pt-20 pb-16 flex items-center"
     >
       <div className="max-w-7xl mx-auto w-full flex flex-col-reverse md:flex-row items-center gap-12 md:gap-20">
-        {/* Left Section */}
+       
         <motion.div
           className="w-full md:w-1/2 text-center md:text-left"
           variants={fadeUp}
@@ -87,7 +87,7 @@ const Home = () => {
             </span>
           </h1>
 
-          {/* Typing Effect */}
+         
           <div className="h-[2.5rem] mb-4">
             <h3 className="text-2xl font-bold text-cyan-400 inline-block">
               {text}
@@ -101,7 +101,7 @@ const Home = () => {
             <span className="text-blue-400 font-medium">Tailwind CSS</span>.
           </p>
 
-          {/* Social Icons */}
+         
           <motion.div
             className="flex items-center gap-5 mb-6 justify-center md:justify-start"
             variants={fadeUp}
@@ -126,7 +126,7 @@ const Home = () => {
             ))}
           </motion.div>
 
-          {/* CTA Button */}
+         
           <motion.div
             className="flex justify-center md:justify-start"
             variants={fadeUp}
@@ -140,7 +140,7 @@ const Home = () => {
           </motion.div>
         </motion.div>
 
-        {/* Right Image */}
+        
         <motion.div
           className="relative p-[6px] bg-gradient-to-tr from-cyan-400 to-blue-500 rounded-full shadow-2xl shadow-cyan-500/30"
           variants={fadeUp}
@@ -154,7 +154,7 @@ const Home = () => {
             className="p-2 bg-gray-800 rounded-full"
           >
             <img
-              src="src\components\WhatsApp_Image_2025-06-20_at_15.01.14_8c87124c-removebg-preview (1).png"
+              src="https://scontent.flhe3-2.fna.fbcdn.net/v/t39.30808-6/525017808_122262924014024088_4419765652476540871_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH1aoh8lR0GGoYg69XV24jrHBX2xuYLY8gcFfbG5gtjyGMzNp1BjI3IgNIrM0q1ORbdpk-li67jjpNantyNRoWa&_nc_ohc=UbA0WXHeKgQQ7kNvwES705A&_nc_oc=AdlcsqD5nGuD68Ic-IirHVMNSTQwbTSHOAlHkkYtAhqcmkyOtPIRuMG2HY-gvJYIw3c&_nc_zt=23&_nc_ht=scontent.flhe3-2.fna&_nc_gid=8QyoHUJSqLdDh6snl9yKaA&oh=00_AfSOx7SxADDiU-M76tsfzsQYEnCBT5cG8G_fHFFRGSgzTA&oe=688E70B1"
               className="w-72 h-72 md:w-80 md:h-80 object-cover rounded-full shadow-xl"
               alt="Portrait of Sadiq Hussain"
             />
