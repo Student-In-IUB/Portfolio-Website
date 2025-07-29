@@ -154,8 +154,8 @@ const Home = () => {
             className="p-2 bg-gray-800 rounded-full"
           >
             <img
-              src="https://scontent.flhe3-2.fna.fbcdn.net/v/t39.30808-6/525017808_122262924014024088_4419765652476540871_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH1aoh8lR0GGoYg69XV24jrHBX2xuYLY8gcFfbG5gtjyGMzNp1BjI3IgNIrM0q1ORbdpk-li67jjpNantyNRoWa&_nc_ohc=UbA0WXHeKgQQ7kNvwES705A&_nc_oc=AdlcsqD5nGuD68Ic-IirHVMNSTQwbTSHOAlHkkYtAhqcmkyOtPIRuMG2HY-gvJYIw3c&_nc_zt=23&_nc_ht=scontent.flhe3-2.fna&_nc_gid=8QyoHUJSqLdDh6snl9yKaA&oh=00_AfSOx7SxADDiU-M76tsfzsQYEnCBT5cG8G_fHFFRGSgzTA&oe=688E70B1"
-              className="w-72 h-72 md:w-80 md:h-80 object-cover rounded-full shadow-xl"
+              src="src\components\Sadiq.png"
+              className="w-72 h-72 md:w-80 md:h-80  object-cover rounded-full shadow-xl"
               alt="Portrait of Sadiq Hussain"
             />
           </motion.div>
