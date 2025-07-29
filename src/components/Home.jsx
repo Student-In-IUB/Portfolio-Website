@@ -154,7 +154,7 @@ const Home = () => {
             className="p-2 bg-gray-800 rounded-full"
           >
             <img
-              src="src\components\Sadiq.png"
+              src="src\assetss\Sadiq.png"
               className="w-72 h-72 md:w-80 md:h-80  object-cover rounded-full shadow-xl"
               alt="Portrait of Sadiq Hussain"
             />
