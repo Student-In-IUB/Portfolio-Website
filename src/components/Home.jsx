@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion, useAnimation, useInView } from 'framer-motion';
-
+import image from '../assets/Sadiq.webp'
 const roles = ['Frontend Web Developer', 'React.js Specialist', 'UI/UX Designer'];
 
 const socialLinks = {
@@ -14,6 +14,7 @@ const fadeUp = {
   hidden: { opacity: 0, y: 50 },
   visible: { opacity: 1, y: 0 },
 };
+
 
 const Home = () => {
   const ref = useRef(null);
@@ -153,11 +154,11 @@ const Home = () => {
             transition={{ type: 'spring', stiffness: 100 }}
             className="p-2 bg-gray-800 rounded-full"
           >
-            <img
-              src="src\assetss\Sadiq.png"
-              className="w-72 h-72 md:w-80 md:h-80  object-cover rounded-full shadow-xl"
-              alt="Portrait of Sadiq Hussain"
-            />
+           <img
+  src={image}  
+  className="w-72 h-72 md:w-80 md:h-80 object-fill rounded-full shadow-xl"
+  alt="Portrait of Sadiq Hussain"
+/>
           </motion.div>
         </motion.div>
       </div>
